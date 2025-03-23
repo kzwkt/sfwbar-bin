@@ -1,4 +1,4 @@
-name: Build st in Debian Stable Container
+name: Build sfwbar in ubuntu latest Container
 
 on:
    workflow_dispatch:
