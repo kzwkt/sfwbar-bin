@@ -5,4 +5,5 @@ mkdir sfwb
 cp build/*.so sfwb/
 cp build/sfwbar sfwb/
 strip sfwb/*
+cp -r config sfwb/
 zip -r output.zip sfwb/ 
