@@ -1,6 +1,6 @@
 # sfwbar binary
 
-extract output.zip
+extract output.zip from release
 
 put libsfwbar.so  sfwbar in same folder
 
