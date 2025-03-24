@@ -1,41 +1,15 @@
-# st-bin
+# sfwbar binary
 
-from 
+extract output.zip
 
-https://github.com/instantOS/st-instantos
+put libsfwbar.so  sfwbar in same folder
 
-https://github.com/LukeSmithxyz/st
+move all other so plugin in 
 
-eg xresources https://github.com/instantOS/dotfiles/blob/main/dotfiles/Xresources
+ ls /usr/local/lib/x86_64-linux-gnu/sfwbar/
+ 
+alsactl.so  appmenu.so	ncenter.so  network.so	wifi-iwd.so
 
-.Xresources
-```
-Xcursor.size: 16
-*.background: #282C34
-*.foreground: #ABB2BF
-Xft.dpi: 96
-Xft.antialias: true
-Xft.hinting: true
-Xft.hintstyle: hintslight
-Xft.rgba: rgb
-Xft.autohint: false
-*.font: monospace:pixelsize=14
-```
+it depends on meson libdir for now which is found by sfwbar -d
 
-# `st` Terminal Keybindings
-from https://github.com/instantOS/st-instantos/blob/main/config.def.h
-- **Break : sendbreak**
-- **Ctrl + Print : toggleprinter**
-- **Ctrl + + / Ctrl + = : zoom (increase)**
-- **Ctrl + - : zoom (decrease)**
-- **Shift + Print : printscreen**
-- **Print : printsel**
-- **Ctrl + Shift + PgUp : zoom (increase)**
-- **Ctrl + Shift + PgDn : zoom (decrease)**
-- **Ctrl + Shift + Home : zoomreset**
-- **Ctrl + Shift + C : clipcopy**
-- **Ctrl + Shift + V : clippaste**
-- **Ctrl + Shift + Y : selpaste**
-- **Shift + Insert : selpaste**
-- **Ctrl + Shift + NumLock : numlock**
-
+copy config to ~/.config/sfwbar/
