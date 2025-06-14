@@ -1,3 +1,6 @@
+# readme
+https://github.com/LBCrion/sfwbar/blob/main/README.md
+
 # sfwbar binary
 
 extract output.zip from release
