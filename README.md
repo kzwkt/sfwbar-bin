@@ -13,3 +13,6 @@ alsactl.so  appmenu.so	ncenter.so  network.so	wifi-iwd.so
 it depends on meson libdir for now which is found by sfwbar -d
 
 copy config to ~/.config/sfwbar/
+
+# deps
+sudo apt install libjson-c5 libgtk-layer-shell0
